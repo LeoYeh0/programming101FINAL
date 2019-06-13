@@ -1,4 +1,4 @@
-class Enemy1 {
+class Enemy2 {
   boolean isAlive = true;
   float health;
   int scoreValue;
@@ -8,13 +8,13 @@ class Enemy1 {
   PImage img;
   boolean isOne;
   
-  Enemy1(float x, float y){
+  Enemy2(float x, float y){
     this.x = x;
     this.y = y;
     health = 10;
     speed = 0.5;
     scoreValue = 1;
-    img = enemy1Img;
+    img = enemy2Img;
     targetAngle = atan2(height / 2 - y, width / 2 - x);
     isOne = true;
   }
